@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #0f0f0f, #1a1a1a);
+  color: #fff;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.logo-container img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #facc15;
+}
+
+.logo-container h1 {
+  font-size: 28px;
+  color: #facc15;
+  text-shadow: 0 0 10px #facc15;
+}
+
+.game-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.game-card {
+  width: 90%;
+  max-width: 350px;
+  background: linear-gradient(135deg, #1f1f1f, #2a2a2a);
+  border-radius: 18px;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+}
+
+.game-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 16px rgba(0, 255, 255, 0.3);
+}
+
+.game-card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.game-card span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.game-card {
+  width: 90%;
+  max-width: 300px;
+  background: linear-gradient(135deg, #1f1f1f, #2a2a2a);
+  border-radius: 18px;
+  padding: 16px 15px;
+  display: flex;
+  flex-direction: column;  /* ⬅️ Yeh line important */
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+}
+
+.game-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.game-card span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
